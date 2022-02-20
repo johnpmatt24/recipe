@@ -1,0 +1,83 @@
+#container, #content {
+    background-color: darkslategrey;
+    margin: 0 auto;
+    padding: 50px;
+    border-radius: 3%;
+    color: white;
+}
+
+
+#container {
+    width: fit-content;
+}
+
+
+
+#content {
+    width: 1000px;
+}
+
+#nav {
+    gap: 20px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+h1 {
+    color: burlywood;
+}
+
+
+
+.lab {
+    padding-top: 20px;
+}
+
+
+
+
+input{
+    width: 300px;
+    padding: 10px;
+}
+
+
+
+input, button {
+    display: block;
+    margin-top: 7px;
+}
+
+
+button {
+    background-color: bisque;
+    width: 80px;
+    padding: 10px;
+    box-shadow: 3px 3px black;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table{
+    border-collapse: collapse;
+    width: 700px;
+    text-align: center;
+}
+
+.radio input{
+    display: inline-block;
+}
