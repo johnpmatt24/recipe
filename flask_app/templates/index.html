@@ -19,7 +19,10 @@
                 {% endif %}
             {% endwith %}
         </div>
-        <h1>Register</h1>
+        <div class = "flex">
+            <h1>Register</h1>
+            <a href="/login"><button>Login</button></a>
+        </div>
         <form action="/user/register" method="post">
             <div class = "label">
                 <label>
@@ -53,7 +56,6 @@
             </div>
             <button type="submit">Submit</button>
         </form>
-        <a href="/login"><button>Login</button></a>
     </div>
 </body>
 </html>
